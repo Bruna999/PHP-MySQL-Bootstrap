@@ -10,7 +10,7 @@
 5. LAMP  - Linux   Apache MySQL PHP
 
 . Tela de hoje:
-1. Tela de login,
+1. Tela de login <br>
 1.1 Criar o banco de dados (BD),
 1.2 Criar a tabela de usuários,
 1.3 Fazer o HTML da tela de login (formulario),
