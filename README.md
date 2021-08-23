@@ -11,15 +11,15 @@
 
 . Tela de hoje:
 1. Tela de login <br>
-1.1 Criar o banco de dados (BD),
-1.2 Criar a tabela de usuários,
-1.3 Fazer o HTML da tela de login (formulario),
-1.4 Pegar os dados do formulario quando ele for submetido,
-1.5 Verificar se os dados estão no BD,
-1.5.1 Se sim, ir para a tela de boas-vindas,
-1.5.2 Senão mensagem de erro,
+1.1 Criar o banco de dados (BD)<br>
+1.2 Criar a tabela de usuários<br>
+1.3 Fazer o HTML da tela de login (formulario)<br>
+1.4 Pegar os dados do formulario quando ele for submetido<br>
+1.5 Verificar se os dados estão no BD<br>
+1.5.1 Se sim, ir para a tela de boas-vindas<br>
+1.5.2 Senão mensagem de erro<br>
 1.6 Melhorar o layout com Bootstrap.
 
 . Tabela usuário:
-codigo, nome, email, senha, data_registro, data_alteracao, situcao (
-Habilitado, Desabilitado)
+  codigo, nome ,email, senha, data_registro,  data_alteracao, situcao (
+  Habilitado, Desabilitado).
