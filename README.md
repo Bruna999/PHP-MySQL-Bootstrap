@@ -7,7 +7,7 @@
 3.1 HTML<br>
 3.2 CSS<br>
 3.3 Javascript
-4. WAMPP - Windows Apache MySQL PHP .<br>
+4. WAMPP - Windows Apache MySQL PHP ,<br>
    LAMPP - Linux   Apache MySQL PHP 
    
 
