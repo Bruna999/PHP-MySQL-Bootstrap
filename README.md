@@ -12,6 +12,7 @@
    
 
 . Tela de hoje:<br>
+
 1.0 Tela de login <br>
 1.1 Criar o banco de dados (BD)<br>
 1.2 Criar a tabela de usuários<br>
@@ -23,5 +24,6 @@
 1.6 Melhorar o layout com Bootstrap.
 
 . Tabela usuário:
+
   codigo, nome ,email, senha, data_registro,  data_alteracao, situacao (
   Habilitado, Desabilitado).
