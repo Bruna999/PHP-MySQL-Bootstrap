@@ -22,5 +22,5 @@
 1.6 Melhorar o layout com Bootstrap.
 
 . Tabela usuário:
-  codigo, nome ,email, senha, data_registro,  data_alteracao, situcao (
+  codigo, nome ,email, senha, data_registro,  data_alteracao, situacao (
   Habilitado, Desabilitado).
