@@ -10,7 +10,7 @@
 4. WAMPP - Windows Apache MySQL PHP
 5. LAMP  - Linux   Apache MySQL PHP.
 
-. Tela de hoje:
+. Tela de hoje:<br>
 1.0 Tela de login <br>
 1.1 Criar o banco de dados (BD)<br>
 1.2 Criar a tabela de usuários<br>
