@@ -3,9 +3,9 @@
 .  Tecnologias:
 1. PHP
 2. MySQL
-3. Bootstrap
-3.1 HTML
-3.2 CSS
+3. Bootstrap<br>
+3.1 HTML<br>
+3.2 CSS<br>
 3.3 Javascript
 4. WAMPP - Windows Apache MySQL PHP
 5. LAMP  - Linux   Apache MySQL PHP.
