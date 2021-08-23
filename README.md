@@ -1,4 +1,5 @@
 ### Sistema  de  registro de pedidos por telefone ###
+
 .  Tecnologias:
 1. PHP
 2. MySQL
@@ -7,7 +8,7 @@
 3.2 CSS
 3.3 Javascript
 4. WAMPP - Windows Apache MySQL PHP
-5. LAMP  - Linux   Apache MySQL PHP
+5. LAMP  - Linux   Apache MySQL PHP.
 
 . Tela de hoje:
 1. Tela de login <br>
