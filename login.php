@@ -1,20 +1,19 @@
 <?php
     if(count($_POST) > 0) {
-
+    
+    // 1. pegar os valores do formulário
     $email = $_POST["email"];
     $senha = $_POST["senha"];
 
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-
 try {
-    $conn = new PDO("mysql:host=$servername;dbname=restaurante_bd", $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    include("conexao_bd.php");
+    
+   /* $conn = new PDO("mysql:host=$servername;dbname=restaurante_bd", $username, $password);
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);*/
     // echo "Conexão realizada com sucesso.";
 
     // 3. verficar se email e senha estão no BD
-    $consulta = $conn->prepare("SELECT codigo FROM Usuario WHERE email=:email AND senha=md5(:senha)");
+    $consulta = $conn->prepare("SELECT codigo FROM usuario WHERE email=:email AND senha=md5(:senha)");
     $consulta->bindParam(':email', $email, PDO::PARAM_STR);
     $consulta->bindParam(':senha', $senha, PDO::PARAM_STR);
     $consulta->execute();

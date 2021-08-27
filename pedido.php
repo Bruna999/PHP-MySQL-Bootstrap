@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -15,7 +15,6 @@
         <h2> Faça seu pedido</h2>
         <br>
         <form action="cadastrar_pedido.php" method="POST">
-
             <div class="form-group">
                 <label for="nome_produto">Nome do produto: </label>
                 <input type="text" class="form-control" id="nome_produto" name="nome_produto" placeholder="Digite o produto" >
@@ -33,6 +32,17 @@
                 <input type="text" class="form-control" id="preco_produto" name="preco_produto">
             </div>
             <button type="submit" class="btn btn-primary">Adicionar pedido</button>
+                
+            <?php if( isset($resultado["cod"]) == 1 ): ?>
+                        <?php if( isset($resultado) ): ?>
+                    <div class="alert alert-success">
+                        Item inserido com sucesso!
+                    </div>
+                    <?php endif;?>
+                    <div class="alert alert-danger">
+                         Item não inserido com sucesso
+                    </div>
+            <?php endif;?>
         </form>
     </div>
 </body>
