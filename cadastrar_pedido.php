@@ -9,7 +9,6 @@
         // TODO pegar o código do usuário logado (chave estrangeira)
 
     try {
-
         include("conexao_bd.php");
         // echo "Conexão realizada com sucesso.";
 
@@ -25,7 +24,7 @@
 
         $resultado["msg"] = "Item inserido";
         $resultado["cod"] = 1;
-
+        
       }
      catch (PDOException $e) {
          echo "Conexão falhou " . $e->getMessage();
