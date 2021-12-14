@@ -8,7 +8,7 @@
 3.2 CSS,<br>
 3.3 Javascript,
 4. WAMPP - Windows Apache MySQL PHP ,<br>
-   LAMPP - Linux   Apache MySQL PHP .
+5. LAMPP - Linux   Apache MySQL PHP .
    
 
 . Tela de hoje:<br>
